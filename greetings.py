@@ -1,11 +1,10 @@
-import datetime
 
 username = "Дмитрий"
 title = "Заметка"
 content = "Важное"
 status = "В работе"
-created_date = datetime.date(2024, 12, 24)
-issue_date = datetime.date(2024, 12, 31)
+created_date = "24. 12. 2024"
+issue_date = "31. 12. 2024"
 
 print("Имя пользователя:", username)
 print("Заголовок заметки:", title)
