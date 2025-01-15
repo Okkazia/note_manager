@@ -10,8 +10,8 @@ issue_date = input("Введите дату истечения заметки в
 
 title_list = [title, title1, title2]
 
-temp_issue_date = created_date[0:6]
-temp_created_date = issue_date[0:6]
+temp_issue_date = created_date[0:5]
+temp_created_date = issue_date[0:5]
 
 print("Имя пользователя:", username)
 print("Заголовки заметок:", title_list)
