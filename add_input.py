@@ -6,8 +6,8 @@ status = input("Введите статус заметки: ")
 created_date = input("Введите дату создания заметки в формате: Число.Месяц.Год. ")
 issue_date = input("Введите дату истечения заметки в формате: Число.Месяц.Год. ")
 
-temp_issue_date = created_date[0:6]
-temp_created_date = issue_date[0:6]
+temp_issue_date = created_date[0:5]
+temp_created_date = issue_date[0:5]
 
 print("Имя пользователя:", username)
 print("Заголовок заметки:", title)
